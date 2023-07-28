@@ -1,20 +1,24 @@
 ---
-title: "index"
+title: "Chicago Hospital Dataset"
 output: html_document
-date: "2023-07-28"
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Chicago Hospital Project
+This data comes from the Hospital Microbiome Project.  There are several publications, reports and presentations describing the sampling effort that took place at the new hospital in Chicago before and after it opened in 2013.
 
-This uses data from....
+The sequence data was published in @lax_et_al2017. 
 
-link to publication...
+[“Bacterial Colonization and Succession in a Newly Opened Hospital.”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706123/)
 
-link to pdf describing project...
+Abiotic environment measurements were published in @ramos_spatial_2015.
+
+[“Spatial and Temporal Variations in Indoor Environmental Conditions, Human Occupancy, and Operational Characteristics in a New Hospital Building.”](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118207)
+
+These data can be linked using a mapping obtained from the authors.  PreMiEr researchers can contact the Fodor lab to access this.
 
 ## We have...
 
@@ -24,13 +28,13 @@ How were they generated...
 
 This includes 3k samples out of 6k.
 
-Patient mapping available on request within PreMiEr. Day of stay info...
+Additional metadata was obtained via correspondence with the authors. This allowed us to determine the "day of stay" feature for several samples.  PreMiEr researchers can contact the Fodor lab to get this mapping file.
 
 ## Analyses
 
-### Hand vs Bedrail on day 1 vs day 2
+### Hand correlation with Bedrail on day 1 vs day 2
 
-This waas the subject of Nico's REU poster in summer 2023.
+This was the subject of Nico's REU poster in summer 2023.
 
 link...
 
@@ -45,6 +49,7 @@ See [deep dive on unused gloves][gloves].
 
 
 
-At the bottom of the document:
+
+#### References
 
 [gloves]: markdown-htmls/Gloves.html "Title"
