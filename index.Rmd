@@ -32,6 +32,12 @@ Additional metadata was obtained via correspondence with the authors. This allow
 
 ## Analyses
 
+Reproduce figure 1A.
+
+See the [code walk through]() to reproduce figure 1A of @lax_et_al2017 using the counts table we generated with DADA2.
+
+![](images/floors_bray_PCoA.png)
+
 ### Hand correlation with Bedrail on day 1 vs day 2
 
 This was the subject of Nico's REU poster in summer 2023.
@@ -66,4 +72,5 @@ Page was last updated on ``r format(Sys.time(), '%d %B, %Y')``.
 
 Need to edit this page? Review the source repository and fork it on [github](https://github.com/IvoryC/Pubilc_Built_Environment_Microbiome_Data).
 
+[fig1a]: markdown-htmls/Figure_1A.html "Title"
 [gloves]: markdown-htmls/Gloves.html "Title"
