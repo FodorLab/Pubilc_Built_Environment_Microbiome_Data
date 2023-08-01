@@ -48,7 +48,7 @@ analysis html link...
 
 This analysis looks at the "gloves from glovebox" samples.
 
-![alt text](images/UnusedGlove_PCOA.png)
+![](images/UnusedGlove_PCOA.png)
 
 See [deep dive on unused gloves][gloves]. 
 
@@ -57,5 +57,13 @@ See [deep dive on unused gloves][gloves].
 
 
 #### References
+
+<div id="refs"></div>
+
+### About this page
+
+Page was last updated on ``r format(Sys.time(), '%d %B, %Y')``.
+
+Need to edit this page? Review the source repository and fork it on [github](https://github.com/IvoryC/Pubilc_Built_Environment_Microbiome_Data).
 
 [gloves]: markdown-htmls/Gloves.html "Title"

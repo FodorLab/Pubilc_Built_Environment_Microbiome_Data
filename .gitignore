@@ -1,6 +1,9 @@
 # Ignore any file with "NOT_IN_GIT" in the folder or file name.
 **NOT_IN_GIT**
 
+## specific files
+README.html
+
 # System file
 .DS_Store
 
