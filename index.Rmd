@@ -1,6 +1,7 @@
 ---
 title: "Chicago Hospital Dataset"
-output: html_document
+output:
+  html_document: default
 bibliography: references.bib
 ---
 
@@ -32,11 +33,15 @@ Additional metadata was obtained via correspondence with the authors. This allow
 
 ## Analyses
 
-Reproduce figure 1A.
+A few examples of what we can do with this dataset.
 
-See the [code walk through]() to reproduce figure 1A of @lax_et_al2017 using the counts table we generated with DADA2.
+### Reproduce figure 1A.
 
-![](images/floors_bray_PCoA.png)
+[See the code walk through.][fig1a]
+
+In this document we approximately reproduce figure 1A of @lax_et_al2017 using the counts table we generated with DADA2.
+
+![](images/floors_bray_PCoA.png){width=50%}
 
 ### Hand correlation with Bedrail on day 1 vs day 2
 
@@ -52,17 +57,14 @@ analysis html link...
 
 ### Gloves
 
-This analysis looks at the "gloves from glovebox" samples.
+[See the gloves analyis.][gloves]
 
-![](images/UnusedGlove_PCOA.png)
+This analysis looks at the "gloves from glovebox" samples and presents the idea of using these samples as a pseudo blank.
 
-See [deep dive on unused gloves][gloves]. 
-
-
+![](images/UnusedGlove_PCOA.png){width=50%}
 
 
-
-#### References
+### References
 
 <div id="refs"></div>
 

@@ -1,4 +1,5 @@
 # Pubilc Built Environment Microbiome Data
+
 A summary of data resources available to [PreMiEr](https://premier-microbiome.org/) researchers.
 
 This repository exists to host a webpage view of selected data resources and analyses.
@@ -20,14 +21,14 @@ Thank you!
 How to contribute:
 
  1. Fork this repository (be sure to use the main one, owned by FodorLab).
- 1. Make your edits in a branch on your own fork. (Please see content guidelines below.)
- 1. Create a pull request to FodorLab's `main` branch.
+ 1. Make your edits in a branch on your own fork. (See guidelines below.)
+ 1. Create a pull request from your branch to FodorLab's `main` branch.
  
 If any part of that didn't make sense, just reach out to Ivory in the Fodor lab.
 
 ### Formatting
 
-For making pages using Rmardown, see [the rmarkdown cookbook](https://bookdown.org/yihui/rmarkdown-cookbook).\
+For making pages using Rmarkdown, see [the rmarkdown cookbook](https://bookdown.org/yihui/rmarkdown-cookbook).\
 
 Try to stick to simple features.  A few features that are already in use in the repository are:
 
@@ -36,6 +37,7 @@ Try to stick to simple features.  A few features that are already in use in the 
  * links to external urls, [like this](https://ivoryc.github.io/Pubilc_Built_Environment_Microbiome_Data/).
  * text formating such as [block quotes](https://bookdown.org/yihui/rmarkdown/tufte-quotes.html), _italics_, and **bold face**.
 
+You will need to render the html (knit the markdown) locally and include the html file changes as part of your edits.  **Do not** manually edit the html files.  The Rmd file is the appropriate place to make edits, then use knit to make the html file reflect those changes.
 
 ### Attribution and Citation
 
