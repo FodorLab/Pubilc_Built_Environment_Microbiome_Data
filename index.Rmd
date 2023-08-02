@@ -82,7 +82,7 @@ This analysis looks at the "gloves from glovebox" samples and presents the idea 
 
 Page was last updated on ``r format(Sys.time(), '%d %B, %Y')``.
 
-Need to edit this page? Review the source repository and fork it on [github](https://github.com/IvoryC/Pubilc_Built_Environment_Microbiome_Data).
+Need to edit this page? Review the source repository and fork it on [github](https://github.com/FodorLab/Pubilc_Built_Environment_Microbiome_Data).
 
 [fig1a]: markdown-htmls/Figure_1A.html "Title"
 [gloves]: markdown-htmls/Gloves.html "Title"
