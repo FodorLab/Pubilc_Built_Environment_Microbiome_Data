@@ -21,13 +21,23 @@ Abiotic environment measurements were published in @ramos_spatial_2015.
 
 These data can be linked using a mapping obtained from the authors.  PreMiEr researchers can contact the Fodor lab to access this.
 
-## We have...
+## Resources
 
-Where to get counts files...
+The raw sequences were downloaded from the NCBI's SRA project: [PRJEB14474](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB14474/)
 
-How were they generated...
+A limitation: The publication discusses 6,523 16S samples but the corresponding SRA project only has 3,079. After removing technical replicates, that becomes 2,756 unique samples.
 
-This includes 3k samples out of 6k.
+Here is a visual summary of the samples types (rows) and locations (columns) with an indication of how many samples (color) are available for each type/location intersection.
+
+![](images/Locatoin-sampletype_heat_unique.png){width=90%}
+
+For more comments and graphics to get acquainted with the dataset, see the [PRJEB14474 metadata exploration](PRJEB14474_metadataExplorer.html).
+
+The scripts for processing and for several analyses are available in this github repository: [github.com/IvoryC/BuiltEnvData](https://github.com/IvoryC/BuiltEnvData/tree/main)
+
+In short, we used the DADA2 pipeline, assigned taxonomy using silva 138, and filtered for low rarity and scarcity.
+
+Counts tables (and taxonomy, etc) are available via google drive. Contact the fodor lab.
 
 Additional metadata was obtained via correspondence with the authors. This allowed us to determine the "day of stay" feature for several samples.  PreMiEr researchers can contact the Fodor lab to get this mapping file.
 
