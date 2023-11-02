@@ -33,7 +33,7 @@ Here is a visual summary of the samples types (rows) and locations (columns) wit
 
 For more comments and graphics to get acquainted with the dataset, see the [PRJEB14474 metadata exploration](./markdown-htmls/PRJEB14474_metadataExplorer.html).
 
-The scripts for processing and for several analyses are available in this github repository: [github.com/IvoryC/BuiltEnvData](https://github.com/IvoryC/BuiltEnvData/tree/main)
+The scripts for processing and for several analyses are available in this github repository: [https://github.com/IvoryC/chicago-hospital-microbiome](https://github.com/IvoryC/chicago-hospital-microbiome/tree/main)
 
 In short, we used the DADA2 pipeline, assigned taxonomy using silva 138, and filtered for low rarity and scarcity.
 
@@ -59,11 +59,8 @@ This was the subject of Nico's REU poster in summer 2023.
 
 ![](images/day1.vs.day2-9part.png){width=50%}
 
-### Staff skin and station surfaces
+In this case, the difference between day 1 and day 2 correlations were never significant. However we believe that is likely due to the very truncated sample size: many samples are not available, and for many cases, the day-of-stay value could not be determined from the currently available meta data.
 
-image...
-
-analysis html link...
 
 ### Gloves
 
