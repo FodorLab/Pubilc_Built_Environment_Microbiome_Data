@@ -31,7 +31,7 @@ Here is a visual summary of the samples types (rows) and locations (columns) wit
 
 ![](images/Locatoin-sampletype_heat_unique.png){width=90%}
 
-For more comments and graphics to get acquainted with the dataset, see the [PRJEB14474 metadata exploration](PRJEB14474_metadataExplorer.html).
+For more comments and graphics to get acquainted with the dataset, see the [PRJEB14474 metadata exploration](./markdown-htmls/PRJEB14474_metadataExplorer.html).
 
 The scripts for processing and for several analyses are available in this github repository: [github.com/IvoryC/BuiltEnvData](https://github.com/IvoryC/BuiltEnvData/tree/main)
 
@@ -57,7 +57,7 @@ In this document we approximately reproduce figure 1A of @lax_et_al2017 using th
 
 This was the subject of Nico's REU poster in summer 2023.
 
-link...
+![](images/day1.vs.day2-9part.png){width=50%}
 
 ### Staff skin and station surfaces
 
@@ -77,12 +77,6 @@ This analysis looks at the "gloves from glovebox" samples and presents the idea 
 ### References
 
 <div id="refs"></div>
-
-### About this page
-
-Page was last updated on ``r format(Sys.time(), '%d %B, %Y')``.
-
-Need to edit this page? Review the source repository and fork it on [github](https://github.com/FodorLab/Pubilc_Built_Environment_Microbiome_Data).
 
 [fig1a]: markdown-htmls/Figure_1A.html "Title"
 [gloves]: markdown-htmls/Gloves.html "Title"
