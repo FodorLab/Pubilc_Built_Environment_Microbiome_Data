@@ -1,0 +1,39 @@
+---
+title: "Public Data"
+output:
+  html_document: default
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This page is summarizes existing, publicly available data sets that are of interest to PreMiEr and that we have put some effort to making readily available.
+
+## Datasets
+
+### Chicago Hospital 
+
+[Go to detail page](./chicago-hospital)
+
+This data comes from the Hospital Microbiome Project.  There are several publications, reports and presentations describing the sampling effort that took place at the new hospital in Chicago before and after it opened in 2013.
+
+The sequence data was published in @lax_et_al2017. 
+
+Abiotic environment measurements were published in @ramos_spatial_2015.
+
+
+## References
+
+<div id="refs"></div>
+
+## About this page
+
+Is there a dataset you would like to see here?  
+
+Contact Ivory Blakley. _firstname_ "dot" _lastname_ "at" charlotte.edu
+
+Page was last updated on ``r format(Sys.time(), '%d %B, %Y')``.
+
+Need to edit this page? Review the source repository and fork it on [github](https://github.com/FodorLab/Pubilc_Built_Environment_Microbiome_Data).

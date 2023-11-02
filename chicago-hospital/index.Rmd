@@ -2,7 +2,7 @@
 title: "Chicago Hospital Dataset"
 output:
   html_document: default
-bibliography: references.bib
+bibliography: ../references.bib
 ---
 
 ```{r setup, include=FALSE}
